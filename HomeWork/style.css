@@ -1,0 +1,64 @@
+header, footer {
+    padding: 2px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+footer {
+    padding: 15px;
+    font-size: 20px;
+
+}
+#code01 {
+    background-color: rgb(202, 202, 249);
+    width: 500px;
+    margin: 20px;
+}
+#code01 code {
+    background-color: rgb(39, 39, 39);
+    color: green;
+    font-size: 150%;
+}
+#format {
+    background-color: rgb(193, 241, 241);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    color: rgb(57, 6, 6);
+}
+#format h3 {
+    color: red;
+}
+button {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#a01 {
+    background-color: rgb(238, 238, 170);
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: end;
+    border: 2px solid black;
+}
+#list {
+    background-color: rgb(252, 197, 205);
+    font-size: 20px;
+    padding: 3px;
+    margin: 10px;
+}
+table {
+    background-color: rgb(240, 240, 187);
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+td {
+    background-color: rgb(119, 236, 119);
+    border: 1px solid black;
+}
+th {
+    border: 2px solid black;
+    text-align: right;
+}
