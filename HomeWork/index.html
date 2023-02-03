@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Домашняя работа №2</title>
     <meta charset="UTF-8">
@@ -8,78 +9,95 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Элементы HTML</h1>
     </header>
-    <h2>Это заголовок "h2"</h2>
-    <p>Это новый абзац "p"</p><hr>
-    <div id="format">
-        <h3>Форматирование текста</h3>
-        <p> Любой текст можно форматировать следующим образом: <br>
-        сделать его <b>полужирным</b>, <strong>жирным</strong>, <i>курсивом</i>, <small>маленького размера</small>,<br> 
-        а также <mark>выделить маркером</mark>, <del>зачеркнуть</del>, <ins>подчеркнуть</ins>.<br>
-        Еще можно сделать его <sup>надстрочным</sup> и <sub>подстрочным</sub></p><hr>
-    </div>    
-    <div id="insert">
-        <h3>Что еще можно добавить на вашу страницу?</h3>
-        <ul>
-            <li><p>Можно сделать кпноку</p><button type="button" onclick="alert('Вы нажали на кнопку')">Тык</button></li>
-            <li id="a01"><a  href="https://ya.ru" target="_blank">Вставить ссылку</a></li>
-            <li><p style="margin-bottom: 15px">Добавить картинку из интернета:</p>
-                <img src="https://i.pinimg.com/originals/c7/8a/1f/c78a1ff26086681a2712a0477504b785.jpg"
-                alt="картинка с абсолютной ссылкой" style="height:200px;width:400px"></li>
-            <li><p style="margin-bottom: 15px">Или вашу фотографию:</p>
-                
-                <img src="./photo.jpg" class="rounded-circle" style="height:300px;width:400px" alt="картинка с относительной ссылкой"></li>
-        </ul>
-    </div><hr>
-    <div id="list">
-        <h3>Списки</h3>
-        Списки можно делать 2 вариантов: маркированные (как было показано выше) и нумерованными.<br>
-        Нумерованный список:
-        <ol>
-            <li>Текст</li>
-            <li>Текст</li>
-            <li>Текст</li>
-        </ol>
-    </div><hr>
-    <div>
-        <h3>Таблицы</h3>
-        <p>Для создания таблицы используем тег "table", где указываем ширину таблицы в % от ширины страницы</p>
-        <table style="width:50%">
-            <caption>Название таблицы</caption>
-            <tr>
-                <th>Фамилия</th>
-                <th>Имя</th>
-                <th>Год рождения</th>
-            </tr>
-            <tr>
-                <td>Иванов</td>
-                <td>Иван</td>
-                <td>1990</td>
-            </tr>
-            <tr>
-                <td>Петров</td>
-                <td>Петр</td>
-                <td>1991</td>
-            </tr>
-            <tr>
-                <td>Сидоров</td>
-                <td>Василий</td>
-                <td>1992</td>
-            </tr>
-        </table>
-    </div><hr>
-    
-    <div id="code01">
-        <p>Еще можно добавить на вашу страницу элемент кода</p>
-        <q>
-            <code>
-                print("Hello world")
-            </code>
-        </q>
-    </div>
+    <main>
+        <h2>Это заголовок "h2"</h2>
+        <p>Это новый абзац "p"</p>
+        <hr>
+        <div id="format">
+            <h3>Форматирование текста</h3>
+            <p> Любой текст можно форматировать следующим образом: <br>
+                сделать его <b>полужирным</b>, <strong>жирным</strong>, <i>курсивом</i>, <small>маленького
+                    размера</small>,<br>
+                а также <mark>выделить маркером</mark>, <del>зачеркнуть</del>, <ins>подчеркнуть</ins>.<br>
+                Еще можно сделать его <sup>надстрочным</sup> и <sub>подстрочным</sub></p>
+            <hr>
+        </div>
+        <div id="insert">
+            <h3>Что еще можно добавить на вашу страницу?</h3>
+            <ul>
+                <li>
+                    <p>Можно сделать кпноку</p><button type="button" onclick="alert('Вы нажали на кнопку')">Тык</button>
+                </li>
+                <li id="a01"><a href="https://ya.ru" target="_blank">Вставить ссылку</a></li>
+                <li>
+                    <p style="margin-bottom: 15px">Добавить картинку из интернета:</p>
+                    <img src="https://i.pinimg.com/originals/c7/8a/1f/c78a1ff26086681a2712a0477504b785.jpg"
+                        alt="картинка с абсолютной ссылкой" style="height:200px;width:400px">
+                </li>
+                <li>
+                    <p style="margin-bottom: 15px">Или вашу фотографию:</p>
+
+                    <img src="./photo.jpg" class="rounded-circle" style="height:300px;width:400px"
+                        alt="картинка с относительной ссылкой">
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div id="list">
+            <h3>Списки</h3>
+            Списки можно делать 2 вариантов: маркированные (как было показано выше) и нумерованными.<br>
+            Нумерованный список:
+            <ol>
+                <li>Текст</li>
+                <li>Текст</li>
+                <li>Текст</li>
+            </ol>
+        </div>
+        <hr>
+        <div>
+            <h3>Таблицы</h3>
+            <p>Для создания таблицы используем тег "table", где указываем ширину таблицы в % от ширины страницы</p>
+            <table style="width:50%">
+                <caption>Название таблицы</caption>
+                <tr>
+                    <th>Фамилия</th>
+                    <th>Имя</th>
+                    <th>Год рождения</th>
+                </tr>
+                <tr>
+                    <td>Иванов</td>
+                    <td>Иван</td>
+                    <td>1990</td>
+                </tr>
+                <tr>
+                    <td>Петров</td>
+                    <td>Петр</td>
+                    <td>1991</td>
+                </tr>
+                <tr>
+                    <td>Сидоров</td>
+                    <td>Василий</td>
+                    <td>1992</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+
+        <div id="code01">
+            <p>Еще можно добавить на вашу страницу элемент кода</p>
+            <q>
+                <code>
+                    print("Hello world")
+                </code>
+            </q>
+        </div>
+    </main>
     <footer>Сделано для домашнего задания по курсу "Знакомство с веб-технологиями"</footer>
-    </body>
+</body>
+
 </html>

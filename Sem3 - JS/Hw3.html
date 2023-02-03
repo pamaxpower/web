@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Домашняя работа №3</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        while (true) {
+            let res = confirm('У вас есть имя?');
+            if (res) {
+            let name = prompt('Как Вас зовут?');
+            switch (name) {
+                case 'Павел':
+                    alert('Привет, тёзка!!!');
+                    break;
+                default:
+                    alert(`Привет, ${name}!`);
+                    break;
+                }
+            } else {
+                alert('Не может такого быть! У человека должно быть имя!');
+            }
+        }
+    </script>
+</body>
+</html>
