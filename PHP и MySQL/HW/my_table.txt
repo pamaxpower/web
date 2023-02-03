@@ -1,0 +1,20 @@
+
+-- create
+CREATE TABLE Students (
+  empId INTEGER PRIMARY KEY,
+  first_name varchar NOT NULL,
+  surname varchar NOT NULL,
+  age int NOT NULL,
+  address varchar NOT NULL
+);
+
+-- insert
+INSERT INTO Students VALUES (0001, 'Геннадий', 'Кривошеин', 47, 'Сочи');
+INSERT INTO Students VALUES (0002, "Андрей", "Иванов", 18, "Москва");
+INSERT INTO Students VALUES (0003, 'Анатолий', 'Вассерман', 23, 'Санкт-Петербург');
+INSERT INTO Students VALUES (0004, 'Лариса', 'Булкина', 35, 'Саратов');
+INSERT INTO Students VALUES (0005, 'Алевтина', 'Хой', 27, 'Одесса');
+INSERT INTO Students VALUES (0006, 'Егор', 'Летов', 39, 'Омск');
+
+-- fetch 
+SELECT * FROM Students;

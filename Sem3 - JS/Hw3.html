@@ -12,14 +12,14 @@
         while (true) {
             let res = confirm('У вас есть имя?');
             if (res) {
-            let name = prompt('Как Вас зовут?');
-            switch (name) {
-                case 'Павел':
-                    alert('Привет, тёзка!!!');
-                    break;
-                default:
-                    alert(`Привет, ${name}!`);
-                    break;
+                let name = prompt('Как Вас зовут?');
+                switch (name) {
+                    case 'Павел':
+                        alert('Привет, тёзка!!!');
+                        break;
+                    default:
+                        alert(`Привет, ${name}!`);
+                        break;
                 }
             } else {
                 alert('Не может такого быть! У человека должно быть имя!');
