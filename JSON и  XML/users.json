@@ -1,31 +1,30 @@
-// задание 5 из семинара 5. 1:07:48
-
-{"users": [
-    {
-        "first_name": "Иван",
-        "last_name": "Иванов",
-        "age": 37,
-        "hobbies": [
-            "рыбалка",
-            "охота",
-            "футбол"
-        ],
-        "married": true,
-        "children": [
-            "Мария",
-            "Николай"
-        ]
-    },
-    {
-        "first_name": "Ольга",
-        "last_name": "Фролова",
-        "age": 21,
-        "hobbies": [
-            "путешествие",
-            "вышивание"
-        ],
-        "married": false,
-        "children": null
-    }
-]
+{"users": 
+    [
+        {
+            "first_name": "Иван",
+            "last_name": "Иванов",
+            "age": 37,
+            "hobbies": [
+                "рыбалка",
+                "охота",
+                "футбол"
+            ],
+            "married": true,
+            "children": [
+                "Мария",
+                "Николай"
+            ]
+        },
+        {
+            "first_name": "Ольга",
+            "last_name": "Фролова",
+            "age": 21,
+            "hobbies": [
+                "путешествие",
+                "вышивание"
+            ],
+            "married": false,
+            "children": null
+        }
+    ]
 }
