@@ -1,0 +1,27 @@
+<!-- Создать XML-документ на основе каталога книг для сайта -->
+
+<CATALOG>
+    <book_1>
+        <name>Камил видит руками</name>
+        <author>Томаш Малковски</author>
+        <count_str>146</count_str>
+        <date>2019</date>
+        <price>863</price>
+    </book_1>
+    <book_2>
+        <name>Цветы в темноте</name>
+        <author>Сетсра Данг Нгием</author>
+        <count_str>124</count_str>
+        <date>2020</date>
+        <price>1027</price>
+    </book_2>
+    <book_3>
+        <name>Стратегии перемен</name>
+        <author>Джон Коттер</author>
+        <count_str>102</count_str>
+        <date>2022</date>
+        <price>1418</price>
+    </book_3>
+</CATALOG>
+
+<!-- PS: все пишутся теги заглавными буквами! -->
